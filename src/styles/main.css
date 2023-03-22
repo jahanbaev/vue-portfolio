@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+@import url('https://unpkg.com/rolly.js@<VERSION>/css/style.css');
+:root {
+    --dark-black: #000000;
+    --white: #ffffff;
+    --dark-bg: #001321;
+    --columbia-blue: #c7dbe6;
+    --raisin-black: #0b2545;
+    --taupe-gray: #959499ff;
+    --white: #FDFDFDff;
+    --violet: rgb(136, 52, 254);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--columbia-blue);
+    overflow-x: hidden;
+}
+.decor {
+    position: absolute;
+    z-index: 0;
+}
+.container {
+    max-width: 1156px;
+    margin: auto;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+}
+
+.section {
+    width: 100%;
+}
+
+.container-title {
+    width: 100%;
+    font-size: 62px;
+    text-align: center;
+    margin-top: 1.2rem;
+    color: var(--raisin-black);
+}
